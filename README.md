@@ -5,12 +5,20 @@
 * sample.php
 * handle_form.php
 3. Activity p.75
-* activity2.php
+* strfuncoutput.php
 4. Activity p.93
-* activity3.php
+* activity2.php
+* output.php
 5. Activity p.113
 * courseform.php
 * course.php
+6. Activity p.127
+* factorial.php
+* activity3.php
+7. Activity p.147
+* arrayexample.php
+8. Activity p.175
+* activity4.php
 
 # HANDS ON
 1. Hands On p.31
@@ -24,7 +32,9 @@
 * rectarea.php
 * circarea.php
 5. Hands On p.117
-
+6. Hands On p.131
+7. Hands On p.151
+* handson4.php
 
 # ASSIGNMENT
 1. Assignment p.55
@@ -33,4 +43,5 @@
 2. Assignment p.99
 * assignment2_form.php
 * assignment2_output.php
-3. Assigment p.119-120
+3. Assignment p.119-120
+4. Assignment p.133

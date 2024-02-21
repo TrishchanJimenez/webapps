@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACTIVITY</title>
-</head>
-<body>
-    <form action="output.php" method="POST">
-        <b>Enter Length in Centimetre:</b>
-        <input type="text" name="cm" id="" size="20">
-        <input type="submit" value="Convert to Metre and Kilometre" name="submit">
-    </form>
-</body>
-</html>
+<?php
+    $factor = 1;
+    $number = $_POST['number'];
+    echo "<b>Factorial of $number:</b><br><br>";
+    
+    //FOR LOOP
+    for($x = 1; $x<=$number;$x++) {
+        $factor = $factor * $x;
+        if($x!=$number) {
+            echo $x." * ";
+        } else {
+            echo $x;
+        }
+    }
+
+    //WHILE LOOP
+    $x = 1;
+    while($x <= $number) {
+        $factor = $factor * $x;
+        if ($x != $number) {
+            echo $x . " * ";
+        } else {
+            echo $x;
+        }
+        $x++;
+    }
+
+    echo " = ".number_format($factor);
+?>
